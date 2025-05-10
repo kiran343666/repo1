@@ -1,6 +1,6 @@
 env:
   ENVIRONMENT_NAME: qa
-  TEST_VERSIONS: "one two three"
+  TEST_VERSIONS: "one two three four"
 
 
 nodeSelector:
