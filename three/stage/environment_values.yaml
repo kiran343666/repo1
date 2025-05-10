@@ -1,0 +1,13 @@
+env:
+  ENVIRONMENT_NAME: stage
+  TEST_VERSIONS: "one two three"
+
+
+nodeSelector:
+  env: dev
+
+props:
+  cofigMap:
+   name: testcm
+   properties:
+     - heytestapp

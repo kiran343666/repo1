@@ -1,0 +1,13 @@
+env:
+  ENVIRONMENT_NAME: prod
+  TEST_VERSIONS: "one two three"
+
+
+nodeSelector:
+  env: dev
+
+props:
+  cofigMap:
+   name: testcm
+   properties:
+     - heytestapp
